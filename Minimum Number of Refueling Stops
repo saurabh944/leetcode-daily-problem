@@ -34,6 +34,7 @@ public:
 
 Explanation:
 Initially you have a range(startFuel), before you run out of fuel, you can stop by any station within your range.
-The greedy idea is to put all the stations within your range into a candidate list (pq), then you always pick the station with the most fuel supply one at a time to extend your range until your range reaches the target.
+The greedy idea is to put all the stations within your range into a candidate list (pq), then you always pick the station with the most fuel supply one at a time to
+extend your range until your range reaches the target.
 Once your range is extended, you can add more stations to your candidate list.
 If you have exhausted the stations in your list(pq) and still can't reach the target, return -1.
